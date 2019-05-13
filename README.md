@@ -33,20 +33,31 @@ multi-openvpn-install.sh
 Server 1 - Server xx
 You can have a large number of your own servers
 Following settings
+
 server 1 has VPN tunnel with internet
+
 server 2 has server to server vpn
+
 server 3 has server to server vpn
+
 server 4 has server to server vpn
+
 ......
 
 
 
 Start the script
+
 bash multi-openvpn-install.sh 1
+
 for more servers
+
 bash multi-openvpn-install.sh 2
+
 for more servers
+
 bash multi-openvpn-install.sh 3
+
 
 By default, Server 1 has Internet and Forced Redirection in VPN.
 On server 2 is by default NO internet and NO forcing diversion in VPN
@@ -84,18 +95,30 @@ So server to server ;)
 Server 1 - Server xx
 Sie können eine große anzahl an eigenen server haben
 Folgende einstellungen
+
 server 1 hat VPN tunnel mit internet
+
 server 2 hat Server zu Server vpn
+
 server 3 hat Server zu Server vpn
+
 server 4 hat Server zu Server vpn
+
 .....
 
+
 Starten sie das skript
+
 bash multi-openvpn-install.sh 1
+
 für mehr server
+
 bash multi-openvpn-install.sh 2
+
 für mehr server 
+
 bash multi-openvpn-install.sh 3
+
 
 
 Server 1 hat standardmäßig internet und zwangsumleitung in VPN.
