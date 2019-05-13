@@ -66,13 +66,20 @@ On server 2 is by default NO internet and NO forcing diversion in VPN
 that can be changed
 this is in position
 218-224
+
 Clone this section
+
 to a new position underneath
 225 +
+
 Then change
+
 if [$ servermodel -eq "1"]; then
+
 to
+
 if [$ servermodel -eq "2"]; then
+
 And they have 2 Internet VPN tunnels
 
 Server 3 is then again by default NO internet and NO forcing diversion in VPN
@@ -127,14 +134,23 @@ Auf server 2 ist standardmäßig KEIN internet und KEINE zwangsumleitung in VPN
 das kann geändert werden
 dies ist an Position
 218-224
+
 Klonen sie diesen abschnitt
+
 auf eine neue position darunter
 225 +
+
+
 Ändern Sie dann
+
 if [ $servermodell -eq "1" ]; then
+
 zu
+
 if [ $servermodell -eq "2" ]; then
+
 Und die haben 2 Internet VPN tunnel
+
 
 Server 3 ist dann aber wieder standardmäßig KEIN internet und KEINE zwangsumleitung in VPN
 also server zu server ;)
